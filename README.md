@@ -1,12 +1,12 @@
 # RQCODE metrics expiriment
 
-This is a project that contains 4 different requirements statements that suppouse to demonstrate the "Good" and "Bad" variant for requirements quality metrics. This metrics are: Reusability, Modifiability, Redundancy, and Conciseness jof te requirements.
+This is a project that contains 4 different requirements statements that suppouse to demonstrate the "Good" and "Bad" variant for requirements quality metrics. This metrics are: Reusability, Modifiability, Redundancy, and Conciseness of the requirements.
 
 ## Examples structure
 
 in each directory with metrics representation you can find:
 
-1. directoryes with RQCODE implementation of good and bad variation of requirements
+1. directories with RQCODE implementation of good and bad variation of requirements
 2. the common files for both requirements (For example: Conciseness/Clock.java) that are required for laying out the structure of a "system" described by this requirement (it is nessesary to measure metrics properly)
 3. README file that states the requirements used in an example, states which metrics are to evaluate and describes why "bad" metrics suppose to be bad
 
