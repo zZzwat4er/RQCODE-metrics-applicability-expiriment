@@ -47,7 +47,7 @@ Set the score for the following requirements features:
 - Requirement readability 1-10 where 1 = impossible to read, 10 = no effort to read:
   1. set1
   2. set2
-- Requirement readability 1-10 where 1 = impossible to understand, 10 = no effort to understand:
+- Requirement understandability 1-10 where 1 = impossible to understand, 10 = no effort to understand:
   1. set1
   2. set2
 
@@ -250,6 +250,6 @@ Set the score for the following requirements implementation features:
 - Requirement readability 1-10 where 1 = impossible to read, 10 = no effort to read:
   1. set1
   2. set2
-- Requirement readability 1-10 where 1 = impossible to understand, 10 = no effort to understand:
+- Requirement understandability 1-10 where 1 = impossible to understand, 10 = no effort to understand:
   1. set1
   2. set2
