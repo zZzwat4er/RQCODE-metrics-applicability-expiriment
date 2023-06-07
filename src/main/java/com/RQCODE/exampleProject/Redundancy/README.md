@@ -1,23 +1,20 @@
 # Test for redundancy of requirement
 
-In this example we want to find out whethere we can detect redundancy with dublicated code
+In this example, we want to find out whether we can detect redundancy with duplicated code. Additionally, we could check for the requirements maintainability as this metric is highly dependent on other metrics that are related to requirements representation and redundancy
 
 ## Good Requirements
 
-1. On clock tick second must increse by one
-2. If second = 59 on tick it should be equial to 0
-3. If on tick second became 0 minute must increase by one
-4. Second must be between 0 and 59
-5. Minute must be between 0 and 59
+1. There is a message that should be 100 symbols long or shorter
+2. User can create a new message from R1
+3. User could see a message from R1
 
-## Requirements that actually dublicates the clock behavior
+## Bad requirements
 
-1. On clock tick second must increse by one
-2. If second = 59 on tick it should be equial to 0
-3. If on tick second became 0 minute must increase by one
-4. Second must be between 0 and 59
-5. Minute must be between 0 and 59
-6. The clock tracks the total number of seconds that increase on tick
-7. The total number of seconds must be between 0 and 3599 (59m 59s)
+1. User can create a new message
+2. A message should be 100 symbols long or shorter
+3. User can see a message
+4. shown message should be 100 symbols long or shorter
 
-the 6 and 7 requirement qould be removed or requirements 1-5 as this is a dublicated functionality
+## Note
+
+In this case, message that is written everywhere is the same message thus an example of bad requirements R2 and R4 are redundant since they describe the boundary for the same model
